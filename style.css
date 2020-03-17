@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.btn {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #4e8cb6;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #7fb802;
+    border-color: #7fb802;
+}
+
+header {
+    background-color: #0D325A;
+    height: 500px;
+}
+
+.header-top {
+    height: 100px;
+}
+
+.header-bottom {
+    background-image: url('images/business-men.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.logo-container {
+    width: 15%;
+    float: left;
+}
+
+#logo {
+    padding-top: calc((100px - 38px) / 2);
+}
+
+.menu-container {
+    width: 50%;
+    float: left;
+}
+
+#main-menu {
+    list-style-type: none;
+}
+
+#main-menu li {
+    display: inline-block;
+}
+
+#main-menu li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#main-menu li a:hover {
+    color: #f8b71c;
+}
+
+.cta-container {
+    width: 35%;
+    float: left;
+    height: 100%;
+    text-align: right;
+}
+
+.cta-container a {
+    margin-left: 6px;
+}
+
+.cta-container a.link {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 100px;
+}
+
+#jumbo-wrapper {
+    height: 400px;
+    position: relative;
+}
+
+#jumbo-content {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#jumbo-content h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.sezione1 {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px 0;
+}
+
+.sezione1 :first-child {
+    font-size: 25px;
+}
+.sezione1 :last-child {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #999;
+}
+
+.sezione2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sottosezione {
+    width: 20%;
+    margin: 80px;
+    padding: 50px;
+    float: left;
+}
+
+.sottosezione img {
+    width: 80%;
+}
+
+.sottosezione #seconda {
+    width: 100%;
+}
+
+.sottosezione :nth-child(2) {
+    color: #7fb802;
+    font-size: 23px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.sottosezione :last-child {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.sezione3 img {
+    float: left;
+    width: 400px;
+    margin: 100px 200px;
+}
+
+.sezione3 .paragrafi {
+    margin-top: 150px;
+    width: 300px;
+    float:left;
+}
+
+.paragrafi p {
+    margin: 40px 0;
+}
+
+.paragrafi :first-child {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.paragrafi :last-child {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+    line-height: 21px;
+    color: #999;
+}
